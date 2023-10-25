@@ -1,0 +1,4 @@
+V	331022095142Z		01	unknown	/C=RO/ST=IF/L=Bucharest/O=UPB/OU=ACS/CN=server/emailAddress=email@cs.pub.ro
+R	331022095637Z	231025095908Z	02	unknown	/C=RO/ST=IF/L=Bucharest/O=UPB/OU=ACS/CN=client/emailAddress=client@cs.pub.ro
+V	331022105742Z		03	unknown	/C=RO/ST=IF/L=Bucharest/O=UPB/OU=ACS/CN=certificate/emailAddress=email@cs.pub.ro
+V	331022110508Z		04	unknown	/C=RO/OU=SAS-Server/CN=server/emailAddress=server@mail.com
