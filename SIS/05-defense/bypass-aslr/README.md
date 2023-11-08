@@ -2,7 +2,7 @@
 
 ```
 
-Because system function is used inside the program, we can get system addres from PLT. Add thesse two lines in exploit script
+Because system function is used inside the program, we can get system address from PLT. Add these two lines in exploit script
 
 binary = ELF("./vuln", checksec=False)
 system_plt_address = binary.plt.system

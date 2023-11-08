@@ -8,7 +8,7 @@
 
 ```
 
-ldd vuln to get entry adress of libc
+ldd vuln to get entry address of libc
 bishAddress = libc + offset
 
 ```
