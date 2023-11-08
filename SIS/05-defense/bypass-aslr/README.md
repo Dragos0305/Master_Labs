@@ -17,6 +17,7 @@ Find address of string which contains sh
 gdb vuln
 b main
 r
+info proc map
 find 0x8048000,0x8049000,"Check your stash"
 
 Output: 0x8048607
