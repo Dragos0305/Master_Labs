@@ -17,7 +17,8 @@ static void checker(unsigned int a)
 int main(void)
 {
 	char name[32];
-
+	checker(123);
+	mega_checker(0x88776655, 0xaabbccdd);
 	printf("Tell me your name: ");
 	fflush(stdout);
 	fgets(name, 120, stdin);
