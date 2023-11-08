@@ -108,6 +108,4 @@ function revoke_client()
 init
 generate_ca_key
 generate_server_crt
-generate_client_crt "client1"
-generate_client_crt "client2"
-revoke_client "client1"
+generate_client_crt "client"

@@ -1,0 +1,23 @@
+# Dirsearch started Wed Oct 25 06:21:54 2023 as: /home/dragos/.local/bin/dirsearch -u http://141.85.224.104:40001
+
+403   282B   http://141.85.224.104:40001/.ht_wsr.txt
+403   282B   http://141.85.224.104:40001/.htaccess.bak1
+403   282B   http://141.85.224.104:40001/.htaccess.orig
+403   282B   http://141.85.224.104:40001/.htaccess.save
+403   282B   http://141.85.224.104:40001/.htaccess_extra
+403   282B   http://141.85.224.104:40001/.htaccess_sc
+403   282B   http://141.85.224.104:40001/.htaccess.sample
+403   282B   http://141.85.224.104:40001/.htaccessOLD2
+403   282B   http://141.85.224.104:40001/.htaccessOLD
+403   282B   http://141.85.224.104:40001/.htaccess_orig
+403   282B   http://141.85.224.104:40001/.htaccessBAK
+403   282B   http://141.85.224.104:40001/.htm
+403   282B   http://141.85.224.104:40001/.html
+403   282B   http://141.85.224.104:40001/.htpasswd_test
+403   282B   http://141.85.224.104:40001/.htpasswds
+403   282B   http://141.85.224.104:40001/.httr-oauth
+403   282B   http://141.85.224.104:40001/.php
+200   219B   http://141.85.224.104:40001/index.php
+200   219B   http://141.85.224.104:40001/index.php/login/
+403   282B   http://141.85.224.104:40001/server-status
+403   282B   http://141.85.224.104:40001/server-status/

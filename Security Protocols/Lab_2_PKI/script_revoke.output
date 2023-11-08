@@ -1,0 +1,33 @@
+[+]Generate client type key
+[+]Build request
+......+......+...+.+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*.................+.........+....+...+...+..+.......+............+...+..+................+.....+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*....+................+...+.........+..+......+..........+.................+......+.+.....+.+.........+...+..+...+..........+...+............+.....+............+.............+......+......+..............+.+........+......+.+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+.....+.........+...+...+....+....................+.+..+.+.....+.......+.........+......+..+......+.+.....+......+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*..+....+.....+......+.+............+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*....+..+...+...+...+.+...+..+......+...+....+........+.......+.....+.......+...+........+....+........+.+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+-----
+req: No value provided for subject name attribute "ST", skipped
+req: No value provided for subject name attribute "L", skipped
+req: No value provided for subject name attribute "O", skipped
+[+]Sign cert request with CA
+Using configuration from openssl.cnf
+Check that the request matches the signature
+Signature ok
+The Subject's Distinguished Name is as follows
+countryName           :PRINTABLE:'RO'
+organizationalUnitName:ASN.1 12:'SAS-client2'
+commonName            :ASN.1 12:'client2'
+emailAddress          :IA5STRING:'client2@mail.com'
+Certificate is to be certified until Oct 22 12:18:26 2033 GMT (3650 days)
+Sign the certificate? [y/n]:y
+
+
+1 out of 1 certificate requests certified, commit? [y/n]y
+Write out database with 1 new entries
+Data Base Updated
+[+]Clean up
+[+]Revoke client cert client2
+Using configuration from openssl.cnf
+Revoking Certificate 03.
+Data Base Updated
+Using configuration from openssl.cnf
+C = RO, OU = SAS-client2, CN = client2, emailAddress = client2@mail.com
+error 23 at 0 dept lookup: certificate revoked
+error dstratulat_keys/client2.crt: verification failed
