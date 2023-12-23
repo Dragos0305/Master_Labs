@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="google-signin-client_id" content="916811443134-6pqn7k83daueni1ne1nntr8g5oirpgrc.apps.googleusercontent.com">
+</head>
+<body>
+  <h1>Google Sign-In Example</h1>
+
+  <div class="g-signin2" data-onsuccess="onSignIn"></div>
+
+
+  <div id="g_id_onload" data-client_id="916811443134-h7sh7l206911pdddokbhp8obu7cip0l7" data-context="signin"
+  data-ux_mode="popup" data-callback="handleResponse" data-auto_prompt="false">
+</div>
+
+<div class="g_id_signin" data-type="standard" data-shape="rectangular" data-theme="outline" data-text="signin_with"
+  data-size="large" data-logo_alignment="left">
+</div>
+
+  <script>
+    function onSignIn(googleUser) {
+      // Get the user's ID token
+      var id_token = googleUser.getAuthResponse().id_token;
+      console.log("ID Token: " + id_token);
+
+      // You can send the id_token to your server for verification
+      // See: https://developers.google.com/identity/sign-in/web/backend-auth
+
+      // Access the user's basic profile information
+      var profile = googleUser.getBasicProfile();
+      console.log("User ID: " + profile.getId());
+      console.log("Name: " + profile.getName());
+      console.log("Email: " + profile.getEmail());
+    }
+  </script>
+</body>
+</html>
